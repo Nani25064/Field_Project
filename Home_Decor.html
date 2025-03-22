@@ -1,0 +1,125 @@
+<title>E-Commerce Products</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            .product-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                padding: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .product-card {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                text-align: center;
+                transition: transform 0.3s ease;
+            }
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .product-card h3 {
+                font-size: 1.2rem;
+                color: #333;
+                margin: 15px 0 10px;
+            }
+            .product-card p {
+                font-size: 1rem;
+                color: #666;
+                margin: 0 0 15px;
+            }
+            .product-card .price {
+                font-size: 1.25rem;
+                color: #007bff;
+                font-weight: bold;
+            }
+            .product-card button {
+                display: inline-block;
+                margin: 15px 0;
+                padding: 10px 20px;
+                font-size: 1rem;
+                color: #fff;
+                background-color: #007bff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            .product-card button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="products">
+            <h2>Home Decors</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="lamp.jpg" alt="Home Decor 1">
+                <h3>Lamp</h3>
+                <p class="price">₹199
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="buddha.jpg" alt="Home Decor 2">
+                <h3>Buddha</h3>
+                <p class="price">₹256
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="2seater.jpg" alt="Home Decor 3">
+                <h3>2 Seater Sofa</h3>
+                <p class="price">₹3,000
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Dreamcatcher.jpeg" alt="Home Decor 4">
+                <h3>Dreamcatcher</h3>
+                <p class="price">₹359
+                </p>
+                <button>Add to Cart</button>
+            </div>
+    <div class="product-card">
+                <img src="walldecore.jpeg" alt="Home Decor 5">
+                <h3>Wsall Decore</h3>
+                <p class="price">₹409
+                </p>   
+                <button>Add to Cart</button>
+            </div>
+        <div class="product-card">
+                <img src="Clay.jpg" alt="Home Decor 6">
+                <h3>Clay Lamp</h3>
+                <p class="price">₹450
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="poojamandir.jpg" alt="Home Decor 7">
+                <h3>Pooja Mandir</h3>
+                <p class="price">₹500
+                </p>    
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="peacock.jpg" alt="Home Decor 8">
+                <h3>Peacock</h3>
+                <p class="price">₹555
+                </p>
+                <button>Add to Cart</button>
+            </div>
+        </div>

@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Sports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 15px 0 10px;
+        }
+        .product-card p {
+            font-size: 1rem;
+            color: #666;
+            margin: 0 0 15px;
+        }
+        .product-card .price {
+            font-size: 1.25rem;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .product-card button {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="products">
+        <h2>Sports</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="kit.jpg" alt="Product 1">
+            <h3>Cricket Kit</h3>
+            <p class="price">₹12,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="foot.jpg" alt="Product 2">
+            <h3>Foot Ball</h3>
+            <p class="price">₹2,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="basket.jpg" alt="Product 3">
+            <h3>Basket Ball</h3>
+            <p>Description of Product 3</p>
+            <p class="price">₹3,499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="racket.jpg" alt="Product 4">
+            <h3>Yonex Racket</h3>
+            <p class="price">₹3,599</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="inline.jpg" alt="Product 5">
+            <h3>Inline Skates</h3>
+            <p class="price">₹5,999</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gloves.jpg" alt="Product 6">
+            <h3>Gloves</h3>
+            <p class="price">₹3,000</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="skate.jpg"Product 7>
+            <h3>Skate Board</h3>
+            <p class="price">₹1,500</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="volley.jpg" alt="Product 8">
+            <h3>Volley Ball</h3>
+            <p class="price">₹899</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

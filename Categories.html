@@ -1,0 +1,41 @@
+<head> 
+    <title>Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #51f804;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 200px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .category {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">  
+        <div class="category"><link> <a href="Electronics.html">Electronics</a> </link></div>
+        <div class="category"><link> <a href="Fashion.html">Fashion</a> </link></div>
+        <div class="category"><link> <a href="Home_Decor.html">Home_Decor</a> </link></div>
+        <div class="category"><link> <a href="Furniture.html">Furniture</a> </link></div>
+        <div class="category"><link> <a href="Sports.html">Sports</a> </link></div>
+    </div>
+</body>
+</html>

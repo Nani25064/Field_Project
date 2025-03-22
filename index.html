@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="E-Commerce Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Categories.html">Categories</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search for products...">
+            <li><a href="Shopnow.html" class="btn"></a></li>
+            <button>Search</button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our E-Commerce Store</h1>
+        <p>Find the best deals on your favorite products.</p>
+    </section>
+
+        <title>E-Commerce Products</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            .product-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                padding: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .product-card {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                text-align: center;
+                transition: transform 0.3s ease;
+            }
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .product-card h3 {
+                font-size: 1.2rem;
+                color: #333;
+                margin: 15px 0 10px;
+            }
+            .product-card p {
+                font-size: 1rem;
+                color: #666;
+                margin: 0 0 15px;
+            }
+            .product-card .price {
+                font-size: 1.25rem;
+                color: #007bff;
+                font-weight: bold;
+            }
+            .product-card button {
+                display: inline-block;
+                margin: 15px 0;
+                padding: 10px 20px;
+                font-size: 1rem;
+                color: #fff;
+                background-color: #007bff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            .product-card button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Product Listings -->
+        <section class="products">
+            <h2>RECOMMENDED FOR YOU</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="Tv.jpeg" alt="Product 1">
+                    <h3>ACER</h3>
+                    <p>₹12,999</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Vibox_PC.jpeg" alt="Product 2">
+                    <h3>Vibox_PC</h3>
+                    <p>₹1,1,1499</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Keyboard.jpeg" alt="Product 3">
+                    <h3>Kreo</h3>
+                    <p>₹3,999</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Mouse.jpeg" alt="Product 4">
+                    <h3>Kreo</h3>
+                    <p>₹2,499</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <h2>ELECTRONICS</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="boat.jpeg" alt="Product 1">
+                    <h3>Boat</h3>
+                    <p>₹1,500</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="protronics.jpeg" alt="Product 2">
+                    <h3>protronics</h3>
+                    <p>₹1,499</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="jbl.jpeg" alt="Product 3">
+                    <h3>jbl</h3>
+                    <p>₹1,999</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="sony.jpeg" alt="Product 4">
+                    <h3>sony</h3>
+                    <p>₹2,499</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    <!-- Product Listings -->
+    <section class="products">
+        <h2>HOME APPLIANCES</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="AC.jpeg" alt="Product 1">
+                <h3>AC</h3>
+                <p>₹59,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="gyser.jpeg" alt="Product 2">
+                <h3>Gyser</h3>
+                <p>₹24,499</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="rice.jpeg" alt="Product 3">
+                <h3>Rice Cokker</h3>
+                <p>₹2,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="fride.jpeg" alt="Product 4">
+                <h3>Fridge</h3>
+                <p>₹45,499</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- Product Listings -->
+    <section class="products">
+        <h2>LAPTOPS</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="victus.jpeg" alt="Product 1">
+                <h3>HP VICTUS</h3>
+                <p>₹78,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Tuf.jpeg" alt="Product 2">
+                <h3>ASUS TUF</h3>
+                <p>₹1,14,499</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="mac.jpeg" alt="Product 3">
+                <h3>Macbook pro</h3>
+                <p>₹1,57,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="lenovo.jpeg" alt="Product 4">
+                <h3>Lenovo Ideapad</h3>
+                <p>₹35,490</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- Product Listings -->
+    <section class="products">
+        <h2>MOBILES</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="samsung.jpeg" alt="Product 1">
+                <h3>Samsung</h3>
+                <p>₹1,11,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="iphone.jpeg" alt="Product 2">
+                <h3>Iphone</h3>
+                <p>₹1,49,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="redmi.jpeg" alt="Product 3">
+                <h3>Redmi</h3>
+                <p>₹19,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="1plus.jpeg" alt="Product 4">
+                <h3>One Plus</h3>
+                <p>₹24,999</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- Product Listings -->
+    <section class="products">
+        <h2>WATCHES</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Boult.jpeg" alt="Product 1">
+                <h3>Boult</h3>
+                <p>₹1,599</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="CK.jpeg" alt="Product 2">
+                <h3>CK</h3>
+                <p>₹12,499</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Fossil.jpeg" alt="Product 3">
+                <h3>Fossil</h3>
+                <p>₹19,999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Fastrack.jpeg" alt="Product 4">
+                <h3>Fastrack</h3>
+                <p>₹2,499</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+            </div>
+        </div>
+    </body>
+    </html>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We are a leading e-commerce platform offering the best products at affordable prices.</p>
+            </div>
+            <div class="footer-section">
+                
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@ecommerce.com</p>
+                <p>Phone: +91 6863872357</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 E-Commerce Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
